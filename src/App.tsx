@@ -117,7 +117,7 @@ function Hero({ ready }: { ready: boolean }) {
         </h1>
         <div className="hero__meta">
           <p className="hero__lead">
-            Advocacia empresarial, de família e sucessões em São Paulo. A gente escuta primeiro, explica sem juridiquês e
+            Advocacia empresarial, de família e sucessões no Rio de Janeiro. A gente escuta primeiro, explica sem juridiquês e
             conduz o caso até o fim.
           </p>
           <Fullstop href={waLink('Olá! Gostaria de agendar uma conversa com o escritório.')}>Agendar uma conversa</Fullstop>
