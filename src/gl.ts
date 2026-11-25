@@ -83,7 +83,11 @@ export function startShader(
     cancelAnimationFrame(raf);
     ro.disconnect();
     io.disconnect();
-    gl.getExtension('WEBGL_lose_context')?.loseContext();
+    // não perde o contexto: no modo de desenvolvimento o React monta o componente duas vezes
+    // e o mesmo canvas precisa continuar desenhando
+    gl.deleteProgram(prog);
+    gl.deleteBuffer(buf);
+    if (tex) gl.deleteTexture(tex);
   };
 }
 
