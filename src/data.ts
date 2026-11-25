@@ -3,9 +3,9 @@ export const FIRM = {
   name: 'Laranjeira Vaz',
   full: 'Laranjeira Vaz Advogados',
   oab: 'OAB/SP 00.000 (registro fictício)',
-  address: 'Rua Exemplo, 100, 8º andar · Jardins, São Paulo',
+  address: 'Rua Exemplo, 100, 8º andar · Barra da Tijuca, Rio de Janeiro',
   hours: 'Segunda a sexta, das 9h às 19h',
-  phone: '(11) 0000-0000',
+  phone: '(21) 0000-0000',
   email: 'contato@exemplo.adv.br',
   whatsapp: '5511900000000',
 };
